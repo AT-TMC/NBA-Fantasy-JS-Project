@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NBA Fantasy Team Comparison</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NBA Fantasy Team Comparison</h1>
+  </header>
+  <main>
+    <section class="player-section">
+      <h2>Team 1</h2>
+      <div class="player-input">
+        <input type="text" id="playerSearch1" placeholder="Search for a player">
+        <button id="displayButton1">Display Selected Players</button>
+      </div>
+      <ul id="playerList1" class="player-list"></ul>
+      <div id="sumChartContainer1" class="chart-container">
+        <canvas id="sumChart1"></canvas>
+      </div>
+      <div id="chartContainer1" class="chart-container">
+        <canvas id="chart1"></canvas>
+      </div>
+      <div id="shootingChartContainer1" class="chart-container">
+        <canvas id="shootingChart1"></canvas>
+      </div>
+      <div id="teamPercentageChartContainer1" class="chart-container">
+        <canvas id="teamPercentageChart1"></canvas>
+      </div>
+    </section>
+    <section class="player-section">
+      <h2>Team 2</h2>
+      <div class="player-input">
+        <input type="text" id="playerSearch2" placeholder="Search for a player">
+        <button id="displayButton2">Display Selected Players</button>
+      </div>
+      <ul id="playerList2" class="player-list"></ul>
+      <div id="sumChartContainer2" class="chart-container">
+        <canvas id="sumChart2"></canvas>
+      </div>
+      <div id="chartContainer2" class="chart-container">
+        <canvas id="chart2"></canvas>
+      </div>
+      <div id="shootingChartContainer2" class="chart-container">
+        <canvas id="shootingChart2"></canvas>
+      </div>
+      <div id="teamPercentageChartContainer2" class="chart-container">
+        <canvas id="teamPercentageChart2"></canvas>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
